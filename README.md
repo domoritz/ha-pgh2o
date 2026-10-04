@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/domoritz/ha-pgh2o/main/custom_components/pgh2o/brand/icon.png" alt="" width="128" align="right">
+
 # Pittsburgh Water (PGH2O) for Home Assistant
 
 A custom integration that imports hourly water use from the
