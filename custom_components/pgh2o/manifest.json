@@ -1,0 +1,13 @@
+{
+  "domain": "pgh2o",
+  "name": "Pittsburgh Water (PGH2O)",
+  "codeowners": ["@domoritz"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "documentation": "https://github.com/domoritz/ha-pgh2o",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/domoritz/ha-pgh2o/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
