@@ -21,22 +21,39 @@ You can then show your water use in the Energy dashboard.
 
 ## Installation
 
-### HACS
+This integration requires [HACS](https://hacs.xyz).
+
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=domoritz&repository=ha-pgh2o&category=integration)
+
+Then:
+
+1. Select **Download** to install the integration.
+2. Restart Home Assistant.
+
+The integration icon shows in Home Assistant 2026.3 and later.
+
+<details>
+<summary>Add the repository manually</summary>
 
 1. In HACS, open the menu (⋮) and select **Custom repositories**.
 2. Add `https://github.com/domoritz/ha-pgh2o` with the type **Integration**.
 3. Install **Pittsburgh Water (PGH2O)** and restart Home Assistant.
 
-### Manual
+</details>
+
+<details>
+<summary>Install without HACS</summary>
 
 Copy `custom_components/pgh2o` to `config/custom_components/` and restart Home Assistant.
 
-The integration icon shows in Home Assistant 2026.3 and later.
+</details>
 
 ## Configuration
 
-1. Go to **Settings → Devices & services → Add integration** and select
-   **Pittsburgh Water (PGH2O)**.
+[![Open your Home Assistant instance and start setting up the integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=pgh2o)
+
+1. Select the button above, or go to **Settings → Devices & services → Add integration**
+   and select **Pittsburgh Water (PGH2O)**.
 2. Enter the username and password of your portal account.
 3. Go to **Settings → Dashboards → Energy → Water consumption** and add the statistic
    **PGH2O water <account number>**.
