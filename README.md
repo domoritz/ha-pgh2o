@@ -31,6 +31,8 @@ You can then show your water use in the Energy dashboard.
 
 Copy `custom_components/pgh2o` to `config/custom_components/` and restart Home Assistant.
 
+The integration icon shows in Home Assistant 2026.3 and later.
+
 ## Configuration
 
 1. Go to **Settings → Devices & services → Add integration** and select
